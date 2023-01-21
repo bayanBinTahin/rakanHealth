@@ -180,7 +180,7 @@
         /*start landing*/
         
         .landing {
-            background-image: url(../images/landing_background.jpg);
+            background-image: url(../images/landing_backgr.jpg);
             background-size: cover;
             height: calc(100vh - 64px);
         }
