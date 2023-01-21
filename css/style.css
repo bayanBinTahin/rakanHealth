@@ -4,7 +4,7 @@
             --main-color: #10cab7;
             --secondary-color: #2c4755;
             --section-padding: 60px;
-            --section-color: rgb(232, 223, 235);
+            --section-color: #f4f0e5;
             --text-secondary-color: #777;
         }
         /* end  global variables */
@@ -186,6 +186,9 @@
         }
         
         .landing .intro-text {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: #f4f0e5;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -199,12 +202,12 @@
             margin: 0;
             font-weight: 300;
             font-size: 50px;
-            color: var(--text-secondary-color);
+            color: #b5c796;
         }
         
         .landing .intro-text p {
             margin: 0;
-            color: var(--secondary-color);
+            color: #538220;
         }
         /*end landing*/
         /*start features*/
