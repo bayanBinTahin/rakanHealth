@@ -87,10 +87,6 @@
         /* end component */
         /* stert header */
         
-        .header {
-            padding: 20px;
-        }
-        
         .header .container {
             display: flex;
             justify-content: space-between;
@@ -177,6 +173,16 @@
         
         .header .links ul li:not(:last-child) a {
             border-bottom: 1px solid #eee;
+        }
+        
+        @media (min-width:768px) {
+            .header .links {
+                display: none;
+            }
+            .header .links .logo {
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
         /* end header */
         /*start landing*/
