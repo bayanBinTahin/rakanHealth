@@ -175,7 +175,7 @@
             border-bottom: 1px solid #eee;
         }
         
-        @media (min-width:768px) {
+        @media (max-width:900px) {
             .header .links {
                 display: none;
             }
