@@ -91,10 +91,11 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            height: 55px;
         }
         
         .header .logo {
-            width: 60px;
+            width: 135px;
         }
         
         .header .links {
@@ -190,7 +191,7 @@
         .landing {
             background-image: url(../images/landing_backgr.jpg);
             background-size: cover;
-            height: calc(100vh - 64px);
+            height: calc(100vh - 71px);
         }
         
         .landing .intro-text {
